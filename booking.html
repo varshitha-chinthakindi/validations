@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Booking</title>
+    </head>
+    <body>
+        <fieldset width="50">
+      <center> <img src="tsrtc.jpg">
+      <h1>TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+    <p><h3>GENERAL BUSPASS APPLICATION</h3></p>
+    </center>
+    
+        </fieldset>
+        <fieldset>
+        <table>
+            
+                <legend style="background-color: blueviolet;">Applicant Details</legend>
+                <tr>
+                    <td>
+                    <form action="./response.html" autocomplete="off">
+                        <label for="name">NAME*</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        
+                        <input type="text" name="name" id="name" required autofocus pattern="[a-zA-Z]+" title="enter only alphabets" maxlength="20">
+                    </td>
+                    
+                        <td>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label for="name">Father's/Guardian's Name*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" name="name" id="name" required pattern="[a-zA-Z]+" title="enter only alphabets" maxlength="20"><br>
+                            </td>
+                     </tr>
+                     <tr>
+                        <td>
+                            
+                            <label for="date">Date Of Birth*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="date" name="date" id="date"><br>
+                        </td>
+                        <td>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label for="gender">Gender*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="radio" name="gender" id="female" value="female"><label for="female">female</label>
+                            <input type="radio" name="gender" id="male"  value="male"><label for="male">male</label>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                            <label for="age">Age As On:*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" size="1">year(s)
+                            <input type="text" size="1">month(s)
+                            <input type="text" size="1">Day(s)
+                            
+                        </td>
+                        <td>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label for="aadhar">Aadhar NO*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="aadhar" name="aadhar" id="aadhar" pattern="[0-9]{12,12}" title="please fill this field with numbers ">
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                            <label for="whatsapp">Whatsapp No*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="whatsapp" name="whatsapp" id="whatsapp" pattern="/+91[6789][/d]{9}" required>
+                        </td>
+                        <td>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label for="email">Email Id*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="email" name="email" id="email" pattern="[a-zA-Z0-9_.]+@gmail\.com" required>
+                        </td>
+                     </tr>
+                    <tr>
+                        <td>
+                            <label for="photo">Photo*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="file" name="file" id="file" accept=".pdf,.docx" required>
+                        </td>
+                    </tr> 
+        </table>
+            </fieldset>
+            <fieldset> 
+                <legend style="background-color:blueviolet"> Residential Address Details</legend>
+                <table>
+                    <tr>
+                        <td>
+                <label for="Applicant">Applicant's Address*</label>
+                <textarea id="Applicant" name="Applicant" rows="5" cols="10">
+
+                </textarea> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td>
+                <label for="district">District*</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select>
+                    <option value="select" readonly required>-----------select--------------</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="warangal">warangal</option>
+                    <option value="tamilnadu">Tamilnadu</option>
+                    </select>
+                    </td>
+                    </tr>
+                    <td>
+                        <label for="mandel">Mandal*</label>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <select>
+                            <option value="select" readonly required>-------select-------</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="warangal">warangal</option>
+                         </select>
+                    </td> 
+                    <td>
+                        <label for="village">Mandel*</label>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <select>
+                            <option value="select" readonly required>-------select-------</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                        </select>
+                    </td>
+                      <tr>
+                        <td>
+                            <lable for="pincode">pincode*</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="pincode" name="pincode" id="pincode" pattern="[\d]{6}">
+                        </td>
+                      </tr>
+                      </table>
+                 </fieldset>
+                 <fieldset>
+                    <legend style="background-color: blueviolet;">Pass Type Detalis</legend>
+                    <label for="city">City*</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select>
+                    
+                        <option value="Hyderabad">Hyderabad</option>
+                    </select><br>
+                    <br>
+                    <label for="pass type">Pass type*</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select>
+                        <option value="select" readonly required>-------select-------</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="tamilnadu">Tamilnadu</option>
+                    </select>
+                 </fieldset>
+                 <fieldset>
+                    <legend style="background-color: blueviolet;">Mode Of Payment & Pass Collection</legend>
+                    <label for="Payment">Payment Mode*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select>
+                        <option value="select" readonly required>select Payment Mode</option>
+                        <option value="phnpay">Phone pay</option>
+                        <option value="google">google pay</option>
+                    </select><br>
+                    <br>
+                    <label for="delivary">Pass Delivery Mode*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <select>
+                        <option value="select" readonly required>Select Pass Delivery Mode</option>
+                       <option value="select">At counter</option>
+                    </select><br>
+                    <br>
+                    <label for="center" readonly required>Center at which you want to collect pass*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select>
+                        <option value="select" readonly required>-------select-------</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                    </select>
+                 </fieldset>
+                 <center><img src="./captcha.jpg" width="100">
+                    <br>
+                    <label for="text"></label><br>
+                    <input type="text" pattern="qGphJD" required><br><br>
+                    
+                    <input type="submit" value="submit">
+
+                 </center>
+             </form>
+        </body>
+</html>
